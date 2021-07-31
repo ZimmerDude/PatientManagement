@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".insertPatient"
+    android:background="@drawable/bg"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:width="10dp"
+            android:hint="Name"
+            android:inputType="text"
+            android:textColor="#191919"
+            android:textColorHint="#1B1B1B">
+
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:width="10dp"
+            android:hint="Age"
+            android:maxLength="2"
+            android:inputType="text"
+            android:textColor="#191919"
+            android:textColorHint="#1B1B1B">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:width="10dp"
+            android:hint="Phone"
+            android:maxLength="10"
+            android:inputType="number"
+            android:textColor="#191919"
+            android:textColorHint="#1B1B1B">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:width="10dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="#191919"
+            android:textColorHint="#1B1B1B">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Gender"
+            android:maxLength="10"
+            android:inputType="text"
+            android:textColor="#191919"
+            android:textColorHint="#1B1B1B">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/covid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Covid Positive Date"
+            android:inputType="datetime"
+            android:textColor="#191919"
+            android:textColorHint="#1B1B1B">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/hospital"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Date of Hospitalization"
+            android:inputType="date"
+            android:textColor="#191919"
+            android:textColorHint="#1B1B1B">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/discharge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Date of Discharge"
+            android:inputType="date"
+            android:textColor="#191919"
+            android:textColorHint="#1B1B1B">
+
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp">
+
+        <Button
+            android:id="@+id/hello"
+            android:layout_width="wrap_content"
+            android:layout_height="78dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:text="insert patient data" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </ScrollView>
+
+
+</LinearLayout>
